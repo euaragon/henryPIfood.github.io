@@ -5,7 +5,8 @@ import Home from "./components/Home";
 import FoodCreate from "./components/FoodCreate"
 import Nav from './components/Nav';
 import Detail from './components/Detail'
-
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3001'
 
 function App() {
   const location = useLocation()
